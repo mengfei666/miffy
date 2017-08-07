@@ -1,0 +1,150 @@
+body
+  position: absolute
+  width: 100%
+  top: 0
+  bottom: 0
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  overflow: hidden
+header
+  width: 100%
+  height: 4.5rem
+  display: -webkit-flex
+  justify-content: space-between
+  align-items: center
+  border-bottom: .1rem solid #e1e1e0
+  a
+    font-size: 1.5rem
+    &:last-child
+      padding-right: 1rem
+    span
+      margin-left: 2rem
+      width: 5rem
+      text-align: center
+      display: inline-block
+      font-size: 1.4rem
+      height: 4.5rem
+      line-height: 4.5rem
+      &:hover
+        border-bottom: .2rem solid red
+section
+  -webkit-flex: 1
+  overflow-y: hidden
+  .content
+    height: 100%
+    overflow: hidden
+  .nav
+    width: 100%
+    height: 4.5rem
+    background: #F3F3F3
+    ul
+      width: 90%
+      text-align: center
+      margin: auto
+      padding-top: .5rem
+      li
+        width: 30%
+        height: 3rem
+        float: left
+        line-height: 3rem
+        border: .1rem solid #e1e1e0
+        background: #ffffff
+        font-size: 1.3rem
+        &:first-child
+          border-radius: .5rem 0 0 .5rem
+        &:last-child
+          border-radius: 0 .5rem .5rem  0
+        &:hover
+          background: red
+          color: #ffffff
+  .list
+    .search
+      width: 100%
+      height: 4.5rem
+
+      ol
+        display: -webkit-flex
+        text-align: center
+        li
+          width: 25%
+          height: 4.5rem
+          line-height: 4.5rem
+          border-bottom: .1rem solid #CCCCCC
+          &:nth-child(3)
+            height: 4.5rem
+            border-right: .1rem solid #CCCCCC
+          a
+            display: inline-block
+            width: 100%
+            height: 2rem
+            text-align: center
+            line-height: 2rem
+            border-right: .1rem solid #CCCCCC
+          i
+            font-size: 2.5rem
+            color: #CCCCCC
+    .lis
+      width: 100%
+      height: auto
+      ul
+        width: 100%
+        height: auto
+        li
+          width: 100%
+          height: 6.5rem
+          border-bottom: .1rem solid #CCCCCC
+          p
+            width: 90%
+            height: 2rem
+            line-height: 2rem
+            font-size: 1.4rem
+            padding-top: .5rem
+            padding-left: 1rem
+            i
+              font-size: 1.5rem
+              color: #CCCCCC
+              padding-right: 1rem
+          .sear
+            width: 100%
+            height: 4.5rem
+            ol
+              display: -webkit-flex
+              text-align: center
+              li
+                width: 25%
+                height: 4rem
+                line-height: 4rem
+                a
+                  display: inline-block
+                  width: 100%
+                  height: 2rem
+                  text-align: center
+                  line-height: 2rem
+                  border-right: .1rem solid #CCCCCC
+                i
+                  font-size: 2.5rem
+                  color: #CCCCCC
+
+
+
+
+
+footer
+  width: 100%
+  height: 4.5rem
+  border-top: .1rem solid #e1e1e0
+  display: -webkit-flex
+  a
+    width: 25%
+    text-align: center
+    &:hover
+      color: red
+    .fa
+      font-size: 2rem
+      display: inline-block
+      padding-top: .5rem
+    span
+      display: block
+      font-size: 1.3rem
+      padding-top: .2rem
+
